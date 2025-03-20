@@ -1,14 +1,19 @@
 @import "tailwindcss";
-@import "tailwindcss/utilities";
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
 
-.leftSide {
-    background: rgba(255, 255, 255, 0.3); /* Beyaz, %20 opaklık */
+ 
+.topSide {
+    background: rgba(101, 142, 189, 0.5); /* Beyaz, %20 opaklık */
+    backdrop-filter: blur(10px); /* Arka planı 10px bulanıklaştır */
+     /* Yuvarlatılmış köşeler */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(12, 12, 12, 0.1); /* Hafif bir gölge ekleyerek cam efekti */
+    backdrop-blur: 5px; /* Daha fazla bulanıklık */
+  }
+.bottomSide {
+    background: rgba(101, 142, 189, 0.5); /* Beyaz, %20 opaklık */
     backdrop-filter: blur(10px); /* Arka planı 10px bulanıklaştır */
     border-radius: 15px; /* Yuvarlatılmış köşeler */
     padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekleyerek cam efekti */
+    box-shadow: 0 4px 10px rgba(12, 12, 12, 0.1); /* Hafif bir gölge ekleyerek cam efekti */
     backdrop-blur: 5px; /* Daha fazla bulanıklık */
   }
